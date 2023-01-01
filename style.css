@@ -1,0 +1,385 @@
+body{
+    background: #283655;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 150%;
+}
+
+.items ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: #63ace5;
+}
+
+.items li{
+    list-style: none;
+    font-family: Tahoma;
+    margin: 50px;
+    cursor: pointer;
+    color:  #e7eff6;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.items a{
+    margin-top: 46px;
+}
+.items .covid{
+    font-family: tahoma;
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.items .separate{
+    color: #283655;
+}
+
+.items .covid:hover{
+    border-bottom: 2px solid blue;
+    transition: .4s linear;
+}
+
+.items li:hover{
+    border-bottom: 2px solid #283655;
+}
+
+.all img{
+    width: 53.0%;
+    float: right;
+    margin-top: -20px;
+    margin-bottom: +40px;
+
+}
+
+.all h1{
+    color: #63ace5;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.all p{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fffef9;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.paragraph p{
+    color: #fffef9;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 25px;
+    padding-bottom: 28px;
+}
+
+.paragraph a{
+    border: 2px solid #fffef9;
+    color: #fffef9;
+    background:  #63ace5;
+    margin-left: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.paragraph .alohida{
+    border-color: #63aceb;
+}
+
+.paragraph .this{
+    background: #283655;
+}
+
+.paragraph .this:hover{
+    background: #63ace5;
+    border-color: #63ace5;
+}
+
+.allthing{
+    padding-top: 100px;
+    background: white;
+    display: inline-block;
+    margin-top: 19px;
+    padding-bottom: 70px;
+}
+
+.warning h1{
+    color: #63ace5;
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+.warning .coral{
+    color:  #283655;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.warning .paragrif{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+
+
+.again-paragraph p{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.correct p{
+    font-family: sans-serif;
+    font-size: 18px;   
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.correct img{
+    width: 50%;
+    float: right;
+    cursor: pointer;
+}
+
+.items a{
+    color: #283655;
+}
+
+.items a:hover{
+    border-bottom: 2px solid #283655;
+}
+
+.color .foot{
+    position: fixed;
+    bottom: 60%;
+    right: 18px;
+    border: 2px solid #63ace5;
+    background: #63ace5;
+    color: #fffef9;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: calibri;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.correct a{
+    text-decoration: none;
+    border: 2px solid #63ace5;
+    background: #63ace5;
+    color: #fffef9;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-radius: 6px; 
+    font-family: calibri;
+    margin-left: 40px;
+}
+
+.copyrights ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.copyrights li{
+    list-style: none;
+    padding: 35px;
+    color: #fffef9;
+    font-family: sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.copyrights input{
+    height: 40px;
+    width: 20%;
+    background-color: dimgrey;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.copyrights input:hover{
+    background: #63ace5;
+    border-color: #63ace5;
+    color: #fffef9;
+    transition: .4s linear;
+    box-shadow: 3px 3px #63ace5;
+	border: #63ace5;
+
+}
+
+.copyrights a{
+    height: 40px;
+    width: 10%;
+    margin-left: 10px;
+    background-color: #fffef9;
+    border: 2px solid #fffef9;
+    text-decoration: none;
+    margin-top: 21px;
+    color: #283655;
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hori hr{
+    border-color: darkgrey;
+}
+
+
+.gor .flat-2{
+    margin-left: 80px;
+}
+
+.gor .flat{
+    margin-left: 30px;
+}
+
+.anyway{
+    display: flex;
+    cursor: pointer;
+}
+
+.press{
+    column-count: 2;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.press .flat-4{
+    margin-left: 110px;
+    padding-top: 5px;
+}
+
+.flat-3 h1{
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fffef9;
+}
+
+.flat h1{
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fffef9;
+}
+
+.flat-2 h1{
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fffef9;
+}
+
+.flat-4 h1{
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fffef9;
+}
+
+.flat p,
+.flat-2 p,
+.flat-3 p,
+.flat-4 p{
+    color: darkgray;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.flat p:hover,
+.flat-2 p:hover,
+.flat-3 p:hover,
+.flat-4 p:hover{
+    color: #fffef9;
+	transition: .2s linear;
+}
+
+.flat a{
+    color: #fffef9;
+    font-size: 22px;
+}
+
+.flat .alohida{
+    margin-right: 10px;
+}
+
+.alohida-2,
+.alohida-3,
+.alohida-4,
+.alohida-5{
+    margin-right: 20px;
+}
+
+.anyway{
+    margin-bottom: 55px;
+}
+
+.jacob hr{
+    border-color: darkgrey;
+}
+
+.flat .alohida:hover{
+    color: royalblue;   
+}
+
+.atom{
+    font-family: sans-serif;
+    color: #fffef9;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer p{
+    font-family: sans-serif;
+    color: #63ace5;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alco p{
+    text-align: center;
+    font-size: 20px;
+    color: darkgrey;
+    font-family: sans-serif;
+}
+
+.footer p:hover{
+    cursor: pointer;
+}
+
+.atom p:hover{
+    cursor: pointer;
+}
+
+.correct .box{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
